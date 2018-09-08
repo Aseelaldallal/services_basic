@@ -6,9 +6,9 @@ import { CounterService } from "./counter.service";
 
 export class UserService {
 
-    private activeUsers = ['Max', 'Anna'];
-    private inactiveUsers = ['Chris', 'Manu'];
-    private counterService: CounterService;
+    activeUsers = ['Max', 'Anna'];
+    inactiveUsers = ['Chris', 'Manu'];
+    counterService: CounterService;
 
     constructor(counterService: CounterService) {
         this.counterService = counterService;
